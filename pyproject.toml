@@ -79,7 +79,7 @@ autogluon = ["autogluon-tabular"]
 [tool.poetry.group.dev.dependencies]
 poethepoet = "^0.16.0"
 flake8 = "^4.0.1"
-black = { version = "^22.6.0", extras = ["jupyter"] }
+black = { version = ">=22.6,<25.0", extras = ["jupyter"] }
 isort = "^5.10.1"
 pytest = "^7.1.2"
 pytest-cov = "^3.0.0"
